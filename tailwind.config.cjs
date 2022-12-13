@@ -7,6 +7,9 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],

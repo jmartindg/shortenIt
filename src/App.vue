@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>Hello Vue</h1>
-  </div>
+  <main>
+    <Hero />
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import Hero from "./components/Hero.vue";
+</script>
