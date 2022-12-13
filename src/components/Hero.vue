@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-max bg-blue-500 px-4 pt-10 pb-16 text-center">
+  <main class="min-h-max bg-blue-600 px-4 pt-10 pb-16 text-center">
     <h1 class="text-4xl font-bold text-white lg:text-5xl">shortenIt</h1>
     <p class="mx-auto pt-5 pb-7 text-white md:w-8/12 md:text-lg lg:w-1/2">
       shortenIt is a free tool to shorten a URL or reduce a link. Create a short link with our URL shortener to make it
@@ -15,10 +15,10 @@
       <input
         type="submit"
         value="Shorten"
-        class="h-10 w-full cursor-pointer bg-blue-700 text-white transition duration-300 ease-in-out hover:bg-blue-800 md:h-12 md:w-1/6 md:rounded-r-md"
+        class="h-10 w-full cursor-pointer bg-blue-800 text-white transition duration-300 ease-in-out hover:bg-blue-900 md:h-12 md:w-1/6 md:rounded-r-md"
       />
     </form>
-  </section>
+  </main>
 </template>
 
 <script setup></script>
