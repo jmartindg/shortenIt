@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# shortenIt
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple URL Shortener application using [shrtcode API](https://shrtco.de/).
 
-## Recommended IDE Setup
+# Technologies Used
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue 3
+- VueUse (useClipboard)
+- Iconify Vue
+- Tailwind CSS
+  - Forms plugin
+  - Prettier plugin for tailwind css
+- Vite
+
+# Deployment
+
+- Vercel
