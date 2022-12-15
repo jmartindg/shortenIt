@@ -8,6 +8,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.url-input {
+  @apply col-span-9 mb-2 h-10 w-full border-2 border-gray-200 px-4 focus:border-blue-500 focus:outline-none md:mb-0 md:h-12 md:rounded-l-md;
+}
+
+.submit-btn {
+  @apply col-span-3 h-10 w-full cursor-pointer bg-blue-800 text-white transition duration-300 ease-in-out hover:bg-blue-900 md:h-12 md:rounded-r-md;
+}
+
+.copy-btn {
+  @apply rounded bg-blue-600 p-3 text-sm text-gray-50 transition duration-300 ease-in-out hover:bg-blue-700;
+}
+
 @layer base {
   body {
     @apply font-inter;
