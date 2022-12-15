@@ -11,7 +11,7 @@
       need it.
     </p>
 
-    <section class="grid gap-10 py-10 md:grid-cols-2 lg:grid-cols-3">
+    <section class="grid gap-10 pt-12 md:grid-cols-2 lg:grid-cols-3">
       <article v-for="feature in features">
         <Icon :icon="feature.icon" class="text-4xl text-blue-600" />
         <h3 class="pt-2 text-lg font-semibold">{{ feature.title }}</h3>
